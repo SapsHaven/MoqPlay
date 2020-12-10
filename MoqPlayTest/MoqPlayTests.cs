@@ -86,7 +86,6 @@ namespace MoqPlayTest
             Console.WriteLine("back...");
 
             sut.DoitSumTask();
-
         }
     }
 }
