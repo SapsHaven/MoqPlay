@@ -85,8 +85,6 @@ namespace MoqPlayTest
 
             Console.WriteLine("back...");
 
-            //mockClassConcrete.Setup(f => f.A(1)).Returns(new Queue<int>(new[] { 143, 1431, 1432 }).Dequeue);
-            //mockClassConcrete.Setup(f => f.A(1)).ReturnsInOrder(9, 99, 999);
             sut.DoitSumTask();
 
         }
